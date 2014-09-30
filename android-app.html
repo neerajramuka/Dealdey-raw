@@ -1,10 +1,15 @@
 <!DOCTYPE> 
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href="css/mob-app.css">
+	<link rel="stylesheet" type="text/css" href="css/android-app.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 </head>
 <body>
-	<div class="redeem-frame">
+	<!-- remove below button and use its ID to pop up modal -->
+	<button class="btn" data-toggle="modal" data-target="#android-app-modal">
+  		Android-app
+	</button>
+	<div class="redeem-frame android-frame modal fade" id="android-app-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 		<header class="redeem-header mob-app">
 			Download Merchant Mobile App
 			<span class="cross"><img src="images/cross.png"></span>
@@ -24,6 +29,10 @@
 			<div class="mobile-image"><img src="images/DD-mob.png"></div>
 		</div>
 	</div>
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
 

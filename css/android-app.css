@@ -1,5 +1,9 @@
 @import url('redeem.css');
 
+.android-frame {
+	height: 345px;
+}
+
 .mob-app-container{
 	background-color: #fafafa;
 }
@@ -12,6 +16,10 @@
 	color: #666666;
 	font: 14px arial;
 	letter-spacing: 0.2px;
+}
+
+.content-left p {
+	margin: 10px 0;
 }
 
 .content-left strong {

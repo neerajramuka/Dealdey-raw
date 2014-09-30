@@ -3,6 +3,7 @@
   margin: auto;
 	width: 590px;
 	height: 552px;	
+	background-color: #fff;
 }
 
 .redeem-header {
@@ -39,7 +40,7 @@
 
 .sidebar ul li {
 	width: 103px;
-	height: 70px;
+	height: 90px;
 	padding-top: 20px;
 	position: relative;
 }
@@ -49,6 +50,7 @@
 	font-family: arial;
 	font-size: 14px;
 	margin-top: 5px;
+	margin-bottom:10px; 
 }
 
 .sidebar ul li.nav-selected {
@@ -115,17 +117,16 @@
   width: 360px;
   height: 33px;
   margin: 10px 0;
-  border: 1px solid #cccccc;
+  border: 1px solid #666666;
   font-size: 14px;
   font-family: arial;
-  color: #cccccc;
+  color: #666666;
   padding-left: 8px;
   letter-spacing: 1px;
 }
 
 .redeem-btn {
   width: 100px;
-  height: 34px;
   padding: 8px 0px;
   font-size: 19.2px;
   letter-spacing: 1px;
