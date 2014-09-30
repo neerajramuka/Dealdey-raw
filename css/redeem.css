@@ -1,0 +1,189 @@
+
+.redeem-frame {
+  margin: auto;
+	width: 590px;
+	height: 552px;	
+}
+
+.redeem-header {
+	height: 55px;
+	background-color: #83b52d;
+	color: #fff;
+	font-size: 18px;
+	font-weight: bold;
+	font-family: arial;
+	line-height: 55px;
+	padding: 0 15px; 
+}
+
+.cross {
+	float: right;
+	padding-top: 13px;
+}
+
+.sidebar {
+	display: inline-block;
+	width: 103px;
+	height: 497px;
+	background-color: #fafafa;
+	box-shadow: 2px 0 0px 0 #ebebeb;
+}
+
+.sidebar ul{
+	width: 103px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+.sidebar ul li {
+	width: 103px;
+	height: 70px;
+	padding-top: 20px;
+	position: relative;
+}
+
+.nav-text {
+	color: #acacac;
+	font-family: arial;
+	font-size: 14px;
+	margin-top: 5px;
+}
+
+.sidebar ul li.nav-selected {
+	background-color: #f2f2f2;
+	box-shadow: 0 2px 2px 0 #ebebeb;
+}
+
+.sidebar ul li.nav-selected .nav-text {
+	color: #464646;
+}
+
+.arrow {
+	display: none;
+	position: absolute;
+	top: 40px;
+	right: -2px;
+}
+
+.sidebar ul li.nav-selected .arrow {
+	display: block;
+}
+
+.nav-icon {
+	width: 33px;
+	height: 30px;
+	margin-left: 37px;
+	display: block;
+	background-image: url("../images/sprite2.png");
+}
+
+.nav-m-redeem {
+	background-position: 0 -30px;
+}
+
+.nav-verify {
+	background-position: 0 -60px;
+}
+
+.sidebar ul li.nav-selected .nav-icon {
+	background-position: -33px 0px;
+}
+
+.sidebar ul li.nav-selected .nav-m-redeem {
+	background-position: -33px -30px;
+}
+
+.sidebar ul li.nav-selected .nav-verify {
+	background-position: -33px -60px;
+}
+
+.frame-content {
+	padding: 20px 0 0 12px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.redeem-title {
+	font-size: 16px;
+	font-family: arial;
+  color: #464646;
+}
+
+.redeem-input-box {
+  width: 360px;
+  height: 33px;
+  margin: 10px 0;
+  border: 1px solid #cccccc;
+  font-size: 14px;
+  font-family: arial;
+  color: #cccccc;
+  padding-left: 8px;
+  letter-spacing: 1px;
+}
+
+.redeem-btn {
+  width: 100px;
+  height: 34px;
+  padding: 8px 0px;
+  font-size: 19.2px;
+  letter-spacing: 1px;
+  color: #fff;
+  font-family: "Myriad Pro";
+  background-color: #84a828;
+  border: none;
+  border-radius: 4px;
+}
+
+.DD-info {
+  margin: 55px 0 0 90px;
+  width: 240px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  font-size: 15px;
+  line-height: 18px;
+  font-family: arial;
+  color: #c2c2c2;
+}
+
+.DD-logo {
+  margin-bottom: 18px;
+}
+
+    /*Multi-redeem.html*/
+
+.redeem-text-area {
+  width: 360px;
+  height: 130px;
+  margin: 10px 0;
+  border: 1px solid #cccccc;
+  font-size: 14px;
+  font-family: arial;
+  color: #cccccc;
+  padding-left: 8px;
+  padding-top: 10px;
+  letter-spacing: 1px;
+}
+
+    /*verify.html*/
+
+.verify-info {
+  width: 274px;
+}
+
+.verify-logo {
+  margin-left: -25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

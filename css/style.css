@@ -1,0 +1,241 @@
+body {
+	background-color: #e1e1e1;
+}
+
+.container {
+	width:450px;
+}
+
+.form-signup-logo{
+	margin: 150px 0 50px 0;
+	text-align: center;
+}
+
+.logo-bottom-margin {
+	margin-bottom: 8px;
+}
+
+.logo-2 {
+	padding-left: 5px;
+}
+
+.form-signup {
+  width: 100%;
+	background-color: #fff;
+	text-align: center;
+  border-radius: 4px;
+	box-shadow: 0 0 10px #d6d6d6;
+}
+
+.relative {
+	position: relative;
+}
+
+.star {
+	position: absolute;
+	top: -8px;
+	font-size: 18px;
+	padding-left: 5px;
+	color: #636363;
+}
+
+.mtop15 {
+	margin-top: 15px;
+}
+
+.mtop25 {
+  margin-top: 25px;
+}
+
+.mbot30{
+  margin-bottom: 30px;
+}
+
+.mbot65 {
+  margin-bottom: 65px;
+}
+
+.mbot15 {
+  margin-bottom: 15px;
+}
+
+.pad-top40 {
+  padding-top: 40px;
+}
+
+
+         /*For Signup page*/
+
+.new-merchant , .returning-merchant {
+	width: 360px;
+	height: 50px;
+	color: #f8f8f8;
+	font: 16px arial;
+	line-height: 34px;
+}
+
+.new-merchant {
+	margin-top: 35px;
+	margin-bottom: 10px;
+	background: linear-gradient(#636363, #373737); 
+}
+
+.new-merchant:hover {
+	color: #e1e1e1;
+}
+
+.returning-merchant {
+	margin-bottom: 35px;
+	background: linear-gradient(#8bb12a, #82a527); 
+}
+
+         /*For merchant ID*/
+
+.merchant-id-title {
+	font-size: 18px;
+	font-family: "Century Gothic" , arial;
+	padding-top: 20px;
+	padding-bottom: 15px;
+	line-height: 21px;
+}
+
+.input-box {
+	margin-bottom: 9px;
+	width: 360px;
+	height: 45px;
+	background-color: #f9f9f9;
+	border: 1.5px solid #d7d7d7;
+	font-size: 16px;
+	padding-left: 10px;
+}
+
+.continue-btn ,
+.register-btn ,
+.reset-btn,
+.login-btn {
+	width: 128px;
+	height: 45px;
+	color: #fff;
+	font-size: 24px;
+	font-family: "Myriad Pro";
+	background: linear-gradient(#8bb12a, #82a527); 
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+			/*For registration.html*/
+
+.form-footer {
+	background-color: #f8f8f8;
+	border-top: 1px solid #e1e1e1;
+	padding-top: 5px;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.register-btn ,
+.reset-btn {
+	margin-bottom: 15px;
+}
+
+			/*For Login.html*/
+
+.forgot-pass {
+	position: absolute;
+	top: 50px;
+	left: 32px;
+  font-size: 14px;
+  line-height: 21px;
+  color: #66841e;
+  font-family: arial;
+}
+
+    /*For reset-pass-email*/
+
+.form-header {
+  background-color: #f8f8f8;
+  border-bottom: 1px solid #e1e1e1;
+  padding: 15px 0;
+  font-size: 18px;
+  line-height: 21px;
+  color: #666666;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.instruct {
+  font-size: 16px;
+  line-height: 21px;
+  font-family: arial;
+  color: #666666;
+  margin: 20px 0;
+  text-align: left;
+  width: 360px;
+  padding-left: 30px;
+}
+
+.footer-msg {
+  padding-right: 40px;
+  font-size: 14px;
+  line-height: 21px;
+  font-family: arial;
+  color: #555555;
+}
+
+		/*Admin-reset*/
+
+.admin-reset-btn {
+	width: 300px;
+	height: 45px;
+	color: #fff;
+	font-size: 16px;
+	line-height: 21px;
+	font-family: "Myriad Pro";
+	background: linear-gradient(#8bb12a, #82a527); 
+	margin-top: 10px;
+	margin-bottom: 20px;
+
+}
+
+.footer-msg-signin {
+	color: #66841e;
+	font-size: 14px;
+	padding-left: 20px;
+}
+
+.text-left {
+	text-align: left;
+	padding-left: 30px;
+}
+
+		/*Admin-Login*/
+
+.login-msg {
+	width: 358px;
+	margin: 10px 30px;
+	padding: 5px 0;
+	color: #363636;
+	font-size: 14px;
+	line-height: 21px;
+	background-color: #ffdddd;
+	border: 1px solid #ffa6b5;
+}
+
+.input-error {
+	margin: 0 auto;
+	background-color: rgba(255,0,0,0.4);
+	color: #990000;
+	font-size: 12px;
+	line-height: 20px;
+	width: 300px;
+	padding: 0 20px;
+	border-radius: 10px;
+}
+
+
+
+
+
+
+
+

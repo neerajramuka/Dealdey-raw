@@ -1,0 +1,83 @@
+@import url('redeem.css');
+
+.mob-app-container{
+	background-color: #fafafa;
+}
+
+.content-left {
+	display: inline-block;
+	width: 360px;
+	vertical-align: top;
+	margin: 5px 40px 0 20px;
+	color: #666666;
+	font: 14px arial;
+	letter-spacing: 0.2px;
+}
+
+.content-left strong {
+	font-size: 16px;
+	color: #464646;
+}
+
+.mobile-image {
+	display: inline-block;
+	margin-top: 55px;
+}
+
+.modal-input-box {
+	width: 205px;
+	height: 35px;
+	border: 1px solid #cccccc;
+	background: url("../images/mini-mob.png") no-repeat;
+	background-position: 5px 6px;
+	padding-left: 25px;
+	font-size: 14px;
+	color: #666666;
+	margin-bottom: 5px;
+}
+
+.send-link {
+	width: 140px;
+	height: 35px;
+	vertical-align: top;
+	color: #fff;
+	font-size: 16px;
+	font-family: "Myriad Pro";
+	background: linear-gradient(#8bb12a, #82a527);
+	border: none;
+	border-radius: 4px;
+	margin-left: 5px;
+}
+
+.note {
+	margin-top: 25px;
+	font-size: 14px;
+	color: #6a8720;
+	font-family: "Myriad Pro";
+	margin-bottom: 25px;
+}
+
+.note sup {
+	font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

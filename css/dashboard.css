@@ -1,0 +1,337 @@
+header {
+	background-color: #292929;
+	height: 50px;
+  border-bottom: 2px solid #000;
+}
+
+.wraper {
+	width: 940px;
+	margin: 0 auto;
+} 
+
+.side-wraper {
+  width: 819px;
+  vertical-align: top;
+  display: inline-block;
+}
+
+.logo {
+	display: inline-block;
+  margin-top: 5px;
+}
+
+.inline {
+	display: inline-block;
+}
+
+.redeem ,
+.help ,
+.account {
+  position: relative;
+	font-size: 16px;
+	color: #e7e7e7;
+  line-height: 50px;
+  padding: 0 17px;
+  border-right: 1px solid #000;
+  box-shadow: 1px 0 0px 0px #3d3d3d;
+}
+
+.nav-pills > li + li {
+  margin-left: 0; 
+
+}
+
+.account {
+  border-right: none;
+  box-shadow: none;
+  padding-right: 10px;
+}
+
+.icon {
+  position: relative;
+  top: -3px;
+  display: inline-block;
+  width: 23px;
+  height: 20px;
+  margin-right: 7px;
+  background-image: url("../images/sprite-menu.png");
+  vertical-align: middle;
+}
+
+.help .icon{
+  background-position: 0px -20px;
+}
+
+.account .icon{
+  background-position: 0px -40px;
+}
+
+.redeem.selected .icon{
+  background-position: -23px 0;
+}
+
+.help.selected .icon{
+  background-position: -23px -20px;
+}
+
+.help.selected {
+  background-color: #fff;
+  color: #666666;
+}
+
+.help-dropdown ,
+.account-dropdown {
+  display: none;
+  position: absolute;
+  top: 50px;
+  right: -1px;
+  width: 270px; 
+  border: 1px solid #cccccc;
+  border-top: none;
+}
+
+.help.selected .help-dropdown {
+  display: block;
+}
+
+.take-tour ,
+.contact ,
+.account-detail ,
+.log-out {
+  padding-left: 17px;  
+  font-family: arial;
+  font-size: 18px;
+  color: #7d9f29;
+}
+
+.contact ,
+.log-out {
+  color: #636363;
+  background-color: #f7f7f7;
+  border-top: 1px solid #cccccc;
+}
+
+.contact-details {
+  border-top: 1px solid #cccccc;
+  font-size: 16px;
+  line-height: 18px;
+  padding: 17px; 
+  color: #636363; 
+}
+
+.account.selected .icon{
+  background-position: -23px -40px;
+}
+
+.account-dropdown {
+  width: 200px;
+}
+
+.account.selected {
+  background-color: #fff;
+  color: #666666;
+}
+
+.account.selected .account-dropdown {
+  display: block;
+}
+
+.account-detail {
+  padding: 10px 30px;
+}
+
+.log-out {
+  padding-left: 30px;
+  color: #464646;
+  padding-bottom: 5px;
+}
+
+    /*Account-details.html*/
+
+.account-info {
+  padding: 18px 22px;
+}
+
+.info-header {
+  color: #363636;
+  font-size: 24px;
+  font-family: "Century Gothic";
+}
+
+.info-header span {
+  color: #7d7d7d;
+  padding-left: 10px;
+}
+
+.pannel {
+  margin-top: 18px;
+  width: 100%;
+  border: 1px solid #d5d5d5;
+  border-radius: 4px;
+  position: relative;
+}
+
+.pannel-header {
+  padding: 15px 0;
+  font-family: arial;
+  font-size: 14px;
+  padding-left: 10px;
+  color: #666666;
+  background: linear-gradient(#f8f8f8, #eaeaea); 
+  border-bottom: 1px solid #d5d5d5;
+  border-radius: 4px 4px 0 0; 
+}
+
+.pannel-content dl {
+  vertical-align: top;
+  padding: 18px 0 0 18px;
+  font-family: arial;
+  font-size: 16px;
+  color: #666666;
+  width: 48%;
+  display: inline-block;
+}
+
+.pannel-content input {
+  width: 275px;
+  height: 35px;
+  margin: 15px 0 0 15px;
+  font-size: 13px;
+  background-color: #f9f9f9;
+  border: 1px solid #d5d5d5;
+  padding-left: 8px;
+}
+.relative-container {
+  height: 85px;
+  position: relative;
+}
+
+.save-button {
+  position: absolute;
+  right: 18px;
+  bottom: 15px;
+  width: 104px;
+  height: 37px;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 19px;
+  font-family: "Myriad Pro";
+  background: linear-gradient(#8bb12a, #82a527); 
+}
+
+
+    /*navigation for main.html*/
+
+
+.side-icon {
+  margin-left: 29px;
+  margin-bottom: 8px;
+  width: 48px;
+  height: 42px;
+  background-image: url("../images/sprite.png");
+}
+
+.side-nav {
+  width: 117px;
+  display: inline-block;
+}
+
+.side-nav li {
+  margin: 0 5px;
+  padding: 17px 0;
+  text-align: center;
+  background: linear-gradient(#343535, #2e2e2e);
+  color: #646464;
+  font-size: 16px;
+  font-family: "Century Gothic";
+  border-bottom: 1px solid #000;
+  letter-spacing: 0.5px;
+}
+
+.side-nav li.mob-app {
+  font-size: 14px;
+  border-bottom: none;
+}
+
+.deals .side-icon {
+  background-position: 0 -42px;
+}
+
+.i-history .side-icon {
+  background-position: 0 -84px;
+}
+
+.feedback .side-icon {
+  background-position: 0 -126px;
+}
+
+.mob-app .side-icon {
+  background-position: 0 -168px;
+}
+
+.side-nav li.side-selected {
+  margin: 0;
+  border-radius: 4px;
+  background: linear-gradient(#424242, #1e1e1e);
+  color: #fff;
+  font-weight: bold;
+}
+
+.side-selected .side-icon {
+  background-position: -48px 0;
+  margin-left: 34px;
+}
+
+.deals.side-selected .side-icon {
+  background-position: -48px -42px;
+}
+
+.i-history.side-selected .side-icon {
+  background-position: -48px -84px;
+}
+
+.feedback.side-selected .side-icon {
+  background-position: -48px -126px;
+}
+
+.mob-app.side-selected .side-icon {
+  background-position: -48px -168px;
+}
+
+.small {
+  display: inline-block;
+  width: 32.99%;
+}
+.pannel-container {
+  text-align: center;
+}
+
+.pannel-nav li {
+display: inline-block;
+margin-top: 5px;
+}
+
+.pannel-nav li a {
+  color: #b7b7b7;
+  font-size: 14px;
+  padding-right: 10px;
+  font-family: "Century Gothic";
+  font-weight: bold;
+}
+
+.pannel-nav li a:hover {
+  background: none;
+  color: #74a810;
+}
+
+.display-list {
+  padding-right: 18px;
+  padding-top: 10px;
+  font-size: 13px;
+  color: #636363;
+}
+
+
+
+
